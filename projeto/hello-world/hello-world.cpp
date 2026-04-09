@@ -8,8 +8,8 @@ public:
 
     Usuario(std::string n, int i) : nome(n), idade(i) {}
 
-    void apresentar() {
-        std::cout << "Olá, meu nome é " << nome << " e tenho " << idade << " anos." << std::endl;
+    void apresentar() { // Método para apresentar as informações do usuário
+    std::cout << "Usuário: " << nome << " | Idade: " << idade << std::endl;
     }
 
     void fazerAniversario() {
