@@ -15,6 +15,7 @@ public:
 };
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Usuario u("Claudia", 20);
+    u.apresentar();
     return 0;
 }
