@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-class Usuario {
+class Usuario {  //Definição da classe Usuario 
 public:
     std::string nome;
     int idade;
