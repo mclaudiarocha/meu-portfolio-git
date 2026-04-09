@@ -11,6 +11,10 @@ public:
     void apresentar() {
         std::cout << "Olá, meu nome é " << nome << " e tenho " << idade << " anos." << std::endl;
     }
+
+    void fazerAniversario() {
+    idade++;
+    }
     
 };
 
