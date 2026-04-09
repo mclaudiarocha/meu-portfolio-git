@@ -10,7 +10,7 @@ public:
     if (idade < 0) idade = 0;
     }
 
-    void apresentar() {
+    void apresentar() { // Método para apresentar o usuário
         std::cout << "Olá, meu nome é " << nome << " e tenho " << idade << " anos." << std::endl;
     }
 
