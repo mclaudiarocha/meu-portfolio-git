@@ -1,20 +1,19 @@
 #include <iostream>
 #include <string>
 
-class Usuario {  //Definição da classe Usuario 
+class Usuario {  //DefiniÃ§Ã£o da classe Usuario 
 public:
     std::string nome;
     int idade;
 
-    Usuario(std::string n, int i) : nome(n), idade(i) {}
-
-    void apresentar() { // Método para apresentar as informações do usuário
-    std::cout << "Usuário: " << nome << " | Idade: " << idade << std::endl;
+    Usuario(std::string n, int i) : nome(n), idade(i) {
+    if (idade < 0) idade = 0;
     }
 
-    void fazerAniversario() {
-    idade++;
-    }
+    void apresentar() { // MÃ©todo para apresentar as informaÃ§Ãµes do usuÃ¡rio
+    std::cout << "UsuÃ¡rio: " << nome 
+              << " | Idade: " << idade << std::endl;
+}
     
 };
 
