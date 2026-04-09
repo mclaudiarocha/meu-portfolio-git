@@ -9,7 +9,7 @@ public:
     Usuario(std::string n, int i) : nome(n), idade(i) {}
 
     void apresentar() {
-        std::cout << "Olá, meu nome é " << nome << " e tenho " << idade << " anos." << std::endl;
+    std::cout << "Usuário: " << nome << " | Idade: " << idade << std::endl;
     }
 
     void fazerAniversario() {
