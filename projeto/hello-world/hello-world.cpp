@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-class Usuario {  //Definição da classe Usuario 
+class Usuario {  //DefiniÃ§Ã£o da classe Usuario 
 public:
     std::string nome;
     int idade;
@@ -10,13 +10,10 @@ public:
     if (idade < 0) idade = 0;
     }
 
-    void apresentar() { // Método para apresentar o usuário
-        std::cout << "Olá, meu nome é " << nome << " e tenho " << idade << " anos." << std::endl;
-    }
-
-    void fazerAniversario() {
-    idade++;
-    }
+    void apresentar() { // MÃ©todo para apresentar as informaÃ§Ãµes do usuÃ¡rio
+    std::cout << "UsuÃ¡rio: " << nome 
+              << " | Idade: " << idade << std::endl;
+}
     
 };
 
